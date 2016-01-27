@@ -1,0 +1,12 @@
+{
+  "name": "generator-servicefabric",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Sean McKenna"
+}
