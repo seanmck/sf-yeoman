@@ -1,7 +1,12 @@
 var generators = require('yeoman-generator');
 var yosay = require('yosay');
 
-module.exports = generators.NamedBase.extend({
+module.exports = generators.Base.extend({
+  constructor: function () {
+    generators.Base.apply(this, arguments);
+    this.argument('name', { type: String, required: true });
+  },
+
   initializing: function() {
     console.log(yosay('Welcome to the Service Fabric application generator!'));
   },
