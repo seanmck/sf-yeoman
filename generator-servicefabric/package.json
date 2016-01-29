@@ -8,5 +8,9 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "Sean McKenna"
+  "author": "Sean McKenna",
+  "dependencies": {
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  }
 }
