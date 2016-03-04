@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "files": [
-    "generators/app"
+    "generators/app",
+    "generators/service"
   ],
   "keywords": [
     "yeoman-generator"

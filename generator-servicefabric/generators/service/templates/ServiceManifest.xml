@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceManifest Name="<%= servicePackageName %>"
+                 Version="1.0.0"
+                 xmlns="http://schemas.microsoft.com/2011/01/fabric"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServiceTypes>
+    <StatefulServiceType ServiceTypeName="<%= serviceTypeName %>" HasPersistedState="<%= hasPersistedState %>" />
+  </ServiceTypes>
+
+  <!-- Code package is your service executable. -->
+  <CodePackage Name="Code" Version="1.0.0">
+    <EntryPoint>
+    </EntryPoint>
+  </CodePackage>
+
+  <Resources>
+    <Endpoints>
+    </Endpoints>
+  </Resources>
+</ServiceManifest>
